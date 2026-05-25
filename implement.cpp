@@ -76,13 +76,13 @@ struct Person{
 int main(){
     SharedPtr<Person> p2(new Person("Uday",19));
     
-    std::cout<<"Initially there are "<<p2.no_of_references()<<"for the person with the name "<<p1->name<<"."<<std::endl;
-    SharedPtr<Person> p3 = p1;
-    SharedPtr<Person> p4 = p1;
+    std::cout<<"Initially there are "<<p2.no_of_references()<<"for the person with the name "<<p2->name<<"."<<std::endl;
+    SharedPtr<Person> p3 = p2;
+    SharedPtr<Person> p4 = p2;
 
     p3->say_hello();
 
-    std::cout<<"Count after creating 3 additional pointers : "<<p2.no_of_references()<<std::endl;
+    std::cout<<"Count after creating 2 additional pointers : "<<p2.no_of_references()<<std::endl;
 
     return 1;
 }
