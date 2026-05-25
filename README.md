@@ -1,4 +1,4 @@
-# sharedpTR
+# SharedPtr
 
 A lightweight custom implementation of a reference-counted smart pointer in C++, built to explore manual memory management, RAII, copy semantics, and ownership handling.
 
