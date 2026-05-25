@@ -33,7 +33,7 @@ A lightweight custom implementation of a reference-counted smart pointer in C++,
 
 ```bash
 sharedpTR/
-├── Implement.cpp
+├── implement.cpp
 └── README.md
 ```
 
@@ -66,7 +66,7 @@ A person object was destroyed
 ## Compile
 
 ```bash
-g++ -std=c++17 main.cpp -o sharedptr
+g++ -std=c++17 implement.cpp -o sharedptr
 ```
 
 ## Run
